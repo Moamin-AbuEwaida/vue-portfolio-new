@@ -1,15 +1,17 @@
 <template>
-  <hello-world />
+  <v-app :style="{ background: $vuetify.theme.themes.dark.background }">
+    <NavBar />
+  </v-app>
 </template>
 
 <script>
-import HelloWorld from "../components/HelloWorld";
+import NavBar from "../components/NavBar";
 
 export default {
   name: "HomePage",
 
   components: {
-    HelloWorld,
+    NavBar,
   },
 };
 </script>
