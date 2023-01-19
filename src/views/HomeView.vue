@@ -221,11 +221,13 @@
         </v-col>
       </v-row>
     </v-container>
+    <FooterPart />
   </v-app>
 </template>
 
 <script>
 import NavBar from "../components/NavBar";
+import FooterPart from "../components/FooterPart";
 
 export default {
   name: "HomePage",
@@ -238,6 +240,7 @@ export default {
 
   components: {
     NavBar,
+    FooterPart,
   },
 };
 </script>
